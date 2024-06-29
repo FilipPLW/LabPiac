@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <img src="{{ url_for('static', filename='cat.jpg') }}" alt="Cat">
+<p><a href="{{ url_for('aboutme') }}">About Me</a></p>
+<p><a href="{{ url_for('contact') }}">Contact</a></p>
+<p><a href="{{ url_for('gallery') }}">Gallery</a></p>
+
+</body>
+</html>
